@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, Users, Settings, HelpCircle, Map, GraduationCap, FileAudio2, MessageSquareMore, Code, CalendarCheck, IndianRupee } from 'lucide-react';
+import { ArrowRight, Users, Map, GraduationCap, FileAudio2, MessageSquareMore, Code, CalendarCheck, IndianRupee } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 
@@ -42,8 +42,7 @@ const HomePage = () => {
                   <img
                     src={image}
                     alt={`Image ${index + 1}`}
-                    className="w-full h-full object-cover rounded"
-                  />
+                    className="w-full h-full object-cover rounded" />
                 </div>
               ))}
             </div>
@@ -102,7 +101,7 @@ const HomePage = () => {
             ].map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-xl transition-shadow">
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-xl transition-shadow ">
                 <div className="text-orange-500 mb-4">
                   {item.icon === "Map" && <Map className="h-8 w-8 mx-auto" />}
                   {item.icon === "Users" && <Users className="h-8 w-8 mx-auto" />}
@@ -120,7 +119,7 @@ const HomePage = () => {
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <p className="text-gray-600 mb-4">{item.description}</p>
                 <Link
-                  to={`/edi-101/${item.title.toLowerCase().replace(/\s+/g, "-")}`}
+                  to={`/${item.title.toLowerCase().replace(/\s+/g, "-")}`}
                   className="text-orange-500 hover:text-orange-600 inline-flex items-center">
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4" />
