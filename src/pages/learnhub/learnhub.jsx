@@ -24,7 +24,7 @@ const motivationalQuotes = [
 const enrolledSkills = [
     {
         id: 1,
-        name: "React Development",
+        name: "Flask Developer",
         progress: 65,
         totalHours: 40,
         completedHours: 26,
@@ -147,7 +147,7 @@ const LearnHub = () => {
                                     <button
                                         className="inline-flex items-center px-4 py-2 bg-black text-white rounded-md hover:bg-orange-500 transition-colors text-sm"
                                     >
-                                        Learn Now
+                                        Continue
                                         <ArrowRight className="ml-2 h-4 w-4" />
                                     </button>
                                 </div>

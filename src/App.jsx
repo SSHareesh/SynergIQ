@@ -8,7 +8,10 @@ import Rewards from "./pages/rewards/rewards.jsx";
 import { RewardProvider } from './context/RewardContext';
 import LearnHub from './pages/learnhub/learnhub.jsx';
 import ThozhaPage from './pages/thozha/thozha.jsx';
-
+import ProjectsPage from './pages/projects/projects.jsx';
+import NewProject from './pages/projects/newproject.jsx';
+import EventCalendarPage from './pages/events-calendar/events-calendar.jsx';
+import ContentFlow from './pages/contentflow/contentflow.jsx';
 
 function App() {
   return (
@@ -23,6 +26,11 @@ function App() {
           <Route path="/rewards" element={<RewardProvider><Rewards /></RewardProvider>} />
           <Route path="/learn-hub" element={<LearnHub />} />
           <Route path="/thozha" element={<ThozhaPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/projects" element={<NewProject />} />
+          <Route path="/events-calendar" element={<EventCalendarPage />} />
+          <Route path="/content-flow" element={<ContentFlow />} />
+
         </Routes>
       </div>
     </Router>
