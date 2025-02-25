@@ -145,7 +145,7 @@ export const ContentFlow = () => {
 
   return (
     <div className="container mx-auto p-8 space-y-8">
-      <h1 className="text-3xl font-bold text-center mb-6">
+      <h1 className="text-3xl font-bold text-center mt-12">
         Upload Your PDF & Interact with AI
       </h1>
 

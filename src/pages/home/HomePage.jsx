@@ -25,7 +25,7 @@ const HomePage = () => {
               </p>
               <div className="flex space-x-4">
                 <Link
-                  to="/start-learning"
+                  to="/profiling"
                   className="inline-flex items-center px-6 py-3 bg-black text-white rounded-md hover:bg-orange-500 transition-colors">
                   Start Learning
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -85,7 +85,7 @@ const HomePage = () => {
               },
               {
                 title: "Projects",
-                description: "",
+                description: "A forum to develop open-source projects and collaborate with peer team mates and mentors",
                 icon: "Code"
               },
               {

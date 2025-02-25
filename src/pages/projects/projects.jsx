@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { Github, Plus, Clock, CheckCircle2 } from 'lucide-react';
 
 // Sample data - replace with your actual data
@@ -9,7 +9,7 @@ const openSourceProjects = [
         title: 'SynergIQ Learning Platform',
         description: 'An AI-powered educational platform for personalized learning',
         tech: ['React', 'Node.js', 'TensorFlow'],
-        githubUrl: 'https://github.com/synergiq/learning-platform'
+        githubUrl: 'https://github.com/SSHareesh/SynergIQ.git'
     },
     {
         id: 2,
@@ -85,9 +85,9 @@ export const ProjectsPage = () => {
                     <div className="flex justify-between items-center mb-6">
                         <h2 className="text-2xl font-semibold">My Projects</h2>
                         <Link
-                            to="/projects/newproject"
+                            to="/newproject"
                             className="inline-flex items-center px-4 py-2 bg-black text-white rounded-md hover:bg-orange-500 transition-colors">
-                            <Plus className="h-5 w-5 mr-2" />
+                            <Plus className="h-5 w-5 mr-2" onClick={() => Navigate} />
                             Add New Project
                         </Link>
                     </div>

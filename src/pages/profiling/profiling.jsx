@@ -14,7 +14,7 @@ const questions = [
     { id: "learning_new_things", text: "Are you comfortable with learning new things frequently?", type: "scale" },
     { id: "structured_or_creative", text: "Do you prefer structured tasks or open-ended creative projects?", type: "choice", options: ["Structured", "Creative"] },
     { id: "likes_experimenting_solutions", text: "When solving a problem, do you like experimenting with different solutions?", type: "boolean" },
-    { id: "independent_or_team", text: "Do you prefer working independently or in a team?", type: "choice", options: ["Individually", "In a team"] },
+    { id: "independent_or_team", text: "Do you prefer working independently or in a team?", type: "choice", options: ["Individual", "In a team"] },
     { id: "likes_troubleshooting", text: "Do you enjoy troubleshooting and fixing issues in systems?", type: "boolean" },
     { id: "interested_in_web_mobile", text: "Would you like to build applications that run on the web or mobile?", type: "boolean" },
     { id: "prefers_look_or_function", text: "Are you more interested in how things look or how things function behind the scenes?", type: "choice", options: ["Looks", "Function"] }
@@ -102,9 +102,8 @@ const Profiling = () => {
                 </div>
 
                 <button
-                    onClick={handleSubmit}
-                    className="mt-8 w-full px-6 py-3 bg-black text-white rounded-md hover:bg-orange-500 transition-colors"
-                >
+                    onClick={() => navigate("/roadmaps")}
+                    className="mt-8 w-full px-6 py-3 bg-black text-white rounded-md hover:bg-orange-500 transition-colors">
                     Submit Answers
                 </button>
             </div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export const NewProject = () => {
+const NewProject = () => {
   const [formData, setFormData] = useState({
     title: '',
     description: '',

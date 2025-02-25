@@ -39,7 +39,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/solutions/Profiling"
+                        to="/profiling "
                         className={`${active ? 'bg-orange-50 text-orange-500' : ''
                           } block px-4 py-2`}>
                         Profiling
@@ -49,7 +49,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/solutions/Roadmap"
+                        to="/roadmaps"
                         className={`${active ? 'bg-orange-50 text-orange-500' : ''
                           } block px-4 py-2`}   >
                         Roadmap
@@ -59,7 +59,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/solutions/LearnHub"
+                        to="/learn-hub"
                         className={`${active ? 'bg-orange-50 text-orange-500' : ''
                           } block px-4 py-2`}   >
                         LearnHub
@@ -69,7 +69,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/solutions/Content Flow"
+                        to="/content-flow"
                         className={`${active ? 'bg-orange-50 text-orange-500' : ''
                           } block px-4 py-2`}   >
                         Content Flow
@@ -79,7 +79,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/solutions/Thozha"
+                        to="/thozha"
                         className={`${active ? 'bg-orange-50 text-orange-500' : ''
                           } block px-4 py-2`}   >
                         Thozha
@@ -89,7 +89,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/solutions/Projects"
+                        to="/projects"
                         className={`${active ? 'bg-orange-50 text-orange-500' : ''
                           } block px-4 py-2`}   >
                         Projects
@@ -99,7 +99,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/solutions/events-calendar"
+                        to="/events-calendar"
                         className={`${active ? 'bg-orange-50 text-orange-500' : ''
                           } block px-4 py-2`}   >
                         Events Calendar
@@ -109,7 +109,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/solutions/Rewards"
+                        to="/rewards"
                         className={`${active ? 'bg-orange-50 text-orange-500' : ''
                           } block px-4 py-2`}   >
                         Rewards
@@ -148,9 +148,7 @@ const Navbar = () => {
                 </Menu.Items>
               </Menu>
 
-              <Link to="/contact" className="px-4 py-2 rounded-md bg-orange-500 text-white hover:bg-black transition-colors">
-                LOGIN
-              </Link>
+
             </div>
           </div>
         </div>

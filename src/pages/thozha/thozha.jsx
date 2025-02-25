@@ -6,10 +6,10 @@ export const ThozhaPage = () => {
 
     const communities = [
         {
-            name: "Python Developers Hub",
-            description: "Connect with Python enthusiasts from your college. Share knowledge, discuss projects, and grow together.",
+            name: "Flask Developers Hub",
+            description: "Connect with Flask enthusiasts from your college. Share knowledge, discuss projects, and grow together.",
             category: "Programming",
-            discordLink: "#", // Add your Discord link here
+            discordLink: "https://discord.gg/XTgg74xS", // Add your Discord link here
             members: 250
         },
         {
